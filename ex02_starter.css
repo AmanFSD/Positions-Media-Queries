@@ -38,33 +38,32 @@ padding: 0;
 
 .box,.box1,.box2,.box3,.box4{
 display: inline-block;
-position: relative;
-width: 300px;
-height: 300px;
+width: 225px;
+height: 225px;
 background-color: darkgreen;
 color: #ead5fd;
-margin: 20px;
+margin: 10px;
 border-radius:50px;
 }
-.box2{
+.box:hover{
     background-color: purple;
 }
 .box1 h2{
     position: relative;
     bottom: 45px;
-    left:110px;
+    left:100px;
 }
 
 .box2 h2{
     position: relative;
-    bottom: 47px;
+    bottom: 50px;
     left:72px;
 }
 
 .box3 h2{
     position: relative;
-    bottom: 50px;
-    left:96px;
+    bottom: 55px;
+    left:95px;
 }
 
 .box4 h2{
@@ -78,8 +77,8 @@ span{
     font-size: 120px;
     color: greenyellow;
     position: relative;
-    top: 50px;
-    left:50px;
+    top: 45px;
+    left:45px;
 }
 
 footer {
@@ -97,9 +96,9 @@ footer {
     }
   }
   
-  @media screen and (min-width: 400px) and (max-width: 499px)  {
+  @media screen and (min-width: 400px) and (max-width: 500px)  {
     .first,.second {
-        width:100vw;
+        width:80vw;
       }
 
       
